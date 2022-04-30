@@ -687,3 +687,22 @@ table {
 #r_ProfileSitePreferenceItem_1 td.locationOptions {
   border-right-color: #dddddd;
 }
+
+
+.profileTable {
+  width: 150px;
+  margin-left: -30px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  overflow:  hidden;
+}
+.profileMenuSelected {
+  color: #333;
+
+}
+.profileMenuTop {
+  background-color: #fafafa;
+  padding:  7px 10px;
+  border:  none;
+  border-bottom: 1px solid #ddd;
+}
