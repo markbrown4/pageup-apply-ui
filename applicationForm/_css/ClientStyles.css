@@ -630,7 +630,7 @@ a.btn, a.btn:hover, a.btn:visited, a.btn:link {
   font-weight: 800;
   font-size: 16px;
   padding: 0;
-  line-height: 44px;
+  line-height: 50px;
 }
 .navbar .nav > li.divider-vertical { display: none }
 .navbar .icon-home { display: none }
@@ -640,7 +640,7 @@ a.btn, a.btn:hover, a.btn:visited, a.btn:link {
   font-weight: 700;
   font-size: 14px;
   color: #333;
-  padding: 12px 14px 10px;
+  padding: 16px 20px 12px !important;
   border-bottom: 3px solid transparent;
 }
 @media (max-width: 979px) {
