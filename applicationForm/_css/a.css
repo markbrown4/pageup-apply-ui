@@ -1,0 +1,507 @@
+/* Generated at 25/04/2022 10:45:31 AM. Last modified 29/09/2021 3:18:32 AM */
+/* Begin shared client styles - Styling shared between "standard styling" and "fully custom styling"
+ * New stuff that's not in migrated client stylesheets, and any customisation allowed in "fully custom"
+ * mode (eg. button colours) should be in here
+ */
+/* Image buttons */
+
+.image-btn {
+  background-image: url("") !important;
+  color: white !important;
+  padding-left: 0px !important;
+  height: 0px !important;
+  line-height: 0px !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 13px !important;
+}
+.image-btn span {
+  background-image: url("") !important;
+  padding-right: 0px !important;
+}
+/* Begin Bootstrap overrides */
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.btn,
+a.btn {
+  background-color: #54b2ff;
+  background-image: -moz-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: -ms-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#68bbff), to(#35a4ff));
+  background-image: -webkit-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: -o-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: linear-gradient(top, #68bbff, #35a4ff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#68bbff', endColorstr='#35a4ff', GradientType=0);
+  border-color: #35a4ff #35a4ff #007fe7;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  color: white !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 13px !important;
+}
+.btn:hover,
+a.btn:hover,
+.btn:active,
+a.btn:active,
+.btn.active,
+a.btn.active,
+.btn.disabled,
+a.btn.disabled,
+.btn[disabled],
+a.btn[disabled] {
+  background-color: #35a4ff;
+}
+.btn:active,
+a.btn:active,
+.btn.active,
+a.btn.active {
+  background-color: #028dff \9;
+}
+.btn-primary,
+a.btn-primary {
+  background-color: #54b2ff;
+  background-image: -moz-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: -ms-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#68bbff), to(#35a4ff));
+  background-image: -webkit-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: -o-linear-gradient(top, #68bbff, #35a4ff);
+  background-image: linear-gradient(top, #68bbff, #35a4ff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#68bbff', endColorstr='#35a4ff', GradientType=0);
+  border-color: #35a4ff #35a4ff #007fe7;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  color: white !important;
+}
+.btn-primary:hover,
+a.btn-primary:hover,
+.btn-primary:active,
+a.btn-primary:active,
+.btn-primary.active,
+a.btn-primary.active,
+.btn-primary.disabled,
+a.btn-primary.disabled,
+.btn-primary[disabled],
+a.btn-primary[disabled] {
+  background-color: #35a4ff;
+}
+.btn-primary:active,
+a.btn-primary:active,
+.btn-primary.active,
+a.btn-primary.active {
+  background-color: #028dff \9;
+}
+.btn-danger,
+a.btn-danger {
+  background-color: #d60000;
+  background-image: -moz-linear-gradient(top, red, #990000);
+  background-image: -ms-linear-gradient(top, red, #990000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(red), to(#990000));
+  background-image: -webkit-linear-gradient(top, red, #990000);
+  background-image: -o-linear-gradient(top, red, #990000);
+  background-image: linear-gradient(top, red, #990000);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='red', endColorstr='#990000', GradientType=0);
+  border-color: #990000 #990000 #4d0000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  color: white !important;
+}
+.btn-danger:hover,
+a.btn-danger:hover,
+.btn-danger:active,
+a.btn-danger:active,
+.btn-danger.active,
+a.btn-danger.active,
+.btn-danger.disabled,
+a.btn-danger.disabled,
+.btn-danger[disabled],
+a.btn-danger[disabled] {
+  background-color: #990000;
+}
+.btn-danger:active,
+a.btn-danger:active,
+.btn-danger.active,
+a.btn-danger.active {
+  background-color: #660000 \9;
+}
+#lightbox_formrunnerbootstrap {
+  width: 1px;
+}
+/* End shared client styles */
+
+/* Begin standard client styles */
+
+BODY {
+  background: white;
+  color: #707070;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  height: 100%;
+}
+select,
+input,
+textarea {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+a {
+  color: #68bbff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+P {
+  MARGIN-TOP: 0px;
+  FONT-SIZE: 13px;
+  MARGIN-BOTTOM: 10px;
+  FONT-FAMILY: Arial, sans-serif;
+}
+ol,
+ul {
+  FONT-SIZE: 13px;
+  FONT-FAMILY: Arial, sans-serif;
+}
+.heading,
+h2 {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 24px;
+  MARGIN-BOTTOM: 10px;
+  color: #444444;
+}
+.breadcrumb {
+  FONT-SIZE: 11px;
+  MARGIN-BOTTOM: 5px;
+}
+.privacyStatement {
+  BORDER-RIGHT: #68bbff 1px solid;
+  PADDING-RIGHT: 5px;
+  BORDER-TOP: #68bbff 1px solid;
+  PADDING-LEFT: 5px;
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 5px;
+  BORDER-LEFT: #68bbff 1px solid;
+  WIDTH: 100%;
+  PADDING-TOP: 5px;
+  BORDER-BOTTOM: #68bbff 1px solid;
+  HEIGHT: 250px;
+  overflow: auto;
+}
+.buttonArea {
+  TEXT-ALIGN: center;
+}
+.info {
+  BORDER-RIGHT: #f5d945 1px solid;
+  PADDING-RIGHT: 10px;
+  BACKGROUND-POSITION: left top;
+  BORDER-TOP: #f5d945 1px solid;
+  PADDING-LEFT: 10px;
+  BACKGROUND-IMAGE: url(../../../images/watermark_info.gif);
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #f5d945 8px solid;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #f5d945 1px solid;
+  BACKGROUND-REPEAT: no-repeat;
+  BACKGROUND-COLOR: #fff9db;
+}
+.error {
+  BORDER-RIGHT: #ff9999 1px solid;
+  PADDING-RIGHT: 10px;
+  BACKGROUND-POSITION: left top;
+  BORDER-TOP: #ff9999 1px solid;
+  PADDING-LEFT: 10px;
+  FONT-SIZE: 12px;
+  BACKGROUND-IMAGE: url(../../../images/watermark_alert.gif);
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #ff9999 8px solid;
+  max-width: 690px;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #ff9999 1px solid;
+  BACKGROUND-REPEAT: no-repeat;
+  FONT-FAMILY: Arial, Helvetica, sans-serif;
+  BACKGROUND-COLOR: #ffe6db;
+}
+.formError {
+  BORDER-RIGHT: #ff9999 1px solid;
+  PADDING-RIGHT: 10px;
+  BACKGROUND-POSITION: left top;
+  BORDER-TOP: #ff9999 1px solid;
+  PADDING-LEFT: 10px;
+  FONT-SIZE: 12px;
+  BACKGROUND-IMAGE: url(../../../images/watermark_alert.gif);
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #ff9999 8px solid;
+  WIDTH: 690px;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #ff9999 1px solid;
+  BACKGROUND-REPEAT: no-repeat;
+  FONT-FAMILY: Arial, Helvetica, sans-serif;
+  BACKGROUND-COLOR: #ffe6db;
+}
+.fieldError {
+  COLOR: #fc3000;
+}
+.personalDetailsField {
+  WIDTH: 150px;
+}
+.personalDetailsFieldSmall {
+  WIDTH: 75px;
+}
+.personalDetailsFieldLarge {
+  WIDTH: 315px;
+}
+.personalDetailslabel {
+  MARGIN-BOTTOM: 2px;
+}
+.mandatoryMessage {
+  COLOR: #7a7a7a;
+  FONT-STYLE: italic;
+}
+.textField {
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 12px;
+  WIDTH: 100%;
+  FONT-FAMILY: Arial, sans-serif;
+}
+.ie6 .textField,
+.ie7 .textField {
+  width: 95%;
+}
+.textArea {
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 12px;
+  WIDTH: 100%;
+  FONT-FAMILY: Arial, sans-serif;
+  HEIGHT: 100px;
+}
+.initApplicationField {
+  WIDTH: 250px;
+}
+.homeBand {
+  BORDER-RIGHT: #68bbff 1px solid;
+  PADDING-RIGHT: 5px;
+  BORDER-TOP: #68bbff 1px solid;
+  PADDING-LEFT: 5px;
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 12px;
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 5px;
+  BORDER-LEFT: #68bbff 1px solid;
+  WIDTH: 690px;
+  PADDING-TOP: 5px;
+  BORDER-BOTTOM: #68bbff 1px solid;
+  FONT-FAMILY: Arial, sans-serif;
+  BACKGROUND-COLOR: #f3f3f3;
+}
+.homeTable {
+  MARGIN-BOTTOM: 10px;
+}
+.withdrawField {
+  MARGIN-BOTTOM: 10px;
+  WIDTH: 450px;
+  HEIGHT: 100px;
+}
+.removeField {
+  MARGIN-BOTTOM: 10px;
+  WIDTH: 450px;
+  HEIGHT: 100px;
+}
+.searchTable {
+  BORDER-RIGHT: #999999 0px solid;
+  BORDER-TOP: #999999 1px solid;
+  MARGIN-BOTTOM: 10px;
+  BORDER-LEFT: #999999 1px solid;
+  BORDER-BOTTOM: #999999 1px solid;
+}
+.searchTable TD {
+  FONT-SIZE: 11px;
+  FONT-FAMILY: Arial;
+}
+.searchTableColumn {
+  BORDER-RIGHT: #999999 1px solid;
+  BORDER-TOP: #999999 0px solid;
+  BORDER-LEFT: #999999 0px solid;
+  BORDER-BOTTOM: #999999 0px solid;
+}
+.searchTableHeader {
+  BACKGROUND-COLOR: #005a99;
+}
+.availabilityTable {
+  BORDER-RIGHT: #cccccc 1px solid;
+  BORDER-TOP: #cccccc 1px solid;
+  BORDER-LEFT: #cccccc 1px solid;
+  BORDER-BOTTOM: #cccccc 1px solid;
+}
+.availabilityTable THEAD TD {
+  BORDER-RIGHT: #cccccc 0px solid;
+  BORDER-TOP: #cccccc 0px solid;
+  BORDER-LEFT: #cccccc 0px solid;
+  BORDER-BOTTOM: #cccccc 1px solid;
+  BACKGROUND-COLOR: #f1f1f1;
+}
+.suburbPreferenceTable {
+  BORDER-RIGHT: #cccccc 1px solid;
+  BORDER-TOP: #cccccc 1px solid;
+  BORDER-LEFT: #cccccc 1px solid;
+  BORDER-BOTTOM: #cccccc 1px solid;
+}
+.suburbPreferenceTable THEAD TD {
+  BORDER-RIGHT: #cccccc 0px solid;
+  BORDER-TOP: #cccccc 0px solid;
+  BORDER-LEFT: #cccccc 0px solid;
+  BORDER-BOTTOM: #cccccc 1px solid;
+  BACKGROUND-COLOR: #f1f1f1;
+}
+.suburbPreferenceError {
+  BORDER-RIGHT: #ff986e 1px solid;
+  PADDING-RIGHT: 10px;
+  BORDER-TOP: #ff986e 1px solid;
+  PADDING-LEFT: 10px;
+  FONT-SIZE: 12px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #ff986e 1px solid;
+  COLOR: #fc3000;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #ff986e 1px solid;
+  FONT-FAMILY: Arial, sans-serif;
+}
+.subHeading {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 14px;
+  MARGIN-BOTTOM: 10px;
+  color: #444444;
+}
+.subTitle {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 14px;
+  MARGIN-BOTTOM: 10px;
+}
+.asterisk {
+  FONT-WEIGHT: bold;
+}
+.Title {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 16px;
+  MARGIN-BOTTOM: 10px;
+}
+.initApplicationLoginTable {
+  BORDER-RIGHT: #cccccc 1px solid;
+  BORDER-TOP: #cccccc 1px solid;
+  MARGIN-BOTTOM: 10px;
+  BORDER-LEFT: #cccccc 1px solid;
+  BORDER-BOTTOM: #cccccc 1px solid;
+  BACKGROUND-COLOR: #f3f3f3;
+}
+.initApplicationLoginInformationText {
+  PADDING-LEFT: 14px;
+  PADDING-TOP: 5px;
+  FONT-SIZE: 13px;
+  FONT-FAMILY: Arial, sans-serif;
+}
+#header {
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  zoom: 1;
+  /* IE - hasLayout */
+  background-color: white;
+  background-image: url("");
+}
+#header h1 {
+  float: left;
+  margin: 5px 0 0 5px;
+}
+#header h2 {
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 0.5em 0.5em 0;
+}
+#wrapper {
+  min-height: 100%;
+}
+/* Hack for IE */
+
+* html #wrapper {
+  height: 100%;
+}
+#footer {
+  font-size: 11px;
+  padding: 0 0.5em;
+  border-top: 1px solid #ececec;
+  height: 25px;
+  line-height: 25px;
+  margin-top: -26px;
+  color: white;
+  background-color: #68bbff;
+  background-image: url("");
+}
+#footer a {
+  color: white;
+}
+#copyright {
+  float: left;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+#pageupLink {
+  font: normal 11px/25px Arial, Helvetica, Sans-serif;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+label,
+input,
+button,
+select,
+textarea {
+  font-size: 13px;
+}
+/* End standard client styles */
+
+/* Begin custom styles */
+
+/*#header { height: 124px; border-top: 4px solid #68BBFF; border-bottom: 150px solid #68BBFF;}
+.btn {text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease-in-out 0s;}
+#main{ margin-top: -206px; position: relative; z-index: 1000;}
+#loginPanel .panelHeader {background-color: #ffffff; background-image: none;}
+#loginPanel {border: 0 none; border-radius: 0 0 0 0; box-shadow: 0 0 0;}
+#mainInner {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 8px solid rgba(170, 170, 170, 0.3);
+    border-radius: 10px 10px 10px 10px;
+    margin: 1.5em auto 0;
+    padding: 20px 20px 0;
+    width: 85%;
+}
+.privacyStatement { border:1px solid #cccccc!important}
+.crumbs input {color: #68BBFF !important;}*/
+
+.SitePreferenceTable {
+  width: 100%;
+}
+#mapTable #map_canvas {
+  width: 100% !important;
+}
+/* End custom styles */
+

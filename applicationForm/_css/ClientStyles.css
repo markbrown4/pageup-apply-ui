@@ -1,0 +1,689 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Montserrat:300,800&subset=latin,latin-ext");
+
+/* Generated at 25/04/2022 10:45:31 AM. Last modified 29/09/2021 3:18:32 AM */
+/* Begin shared client styles - Styling shared between "standard styling" and "fully custom styling"
+ * New stuff that's not in migrated client stylesheets, and any customisation allowed in "fully custom"
+ * mode (eg. button colours) should be in here
+ */
+/* Image buttons */
+
+.image-btn {
+  background-image: url("") !important;
+  color: white !important;
+  padding-left: 0px !important;
+  height: 0px !important;
+  line-height: 0px !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: 13px !important;
+}
+.image-btn span {
+  background-image: url("") !important;
+  padding-right: 0px !important;
+}
+/* Begin Bootstrap overrides */
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+#lightbox_formrunnerbootstrap {
+  width: 1px;
+}
+/* End shared client styles */
+
+/* Begin standard client styles */
+
+BODY {
+  background: white;
+  color: #707070;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 13px;
+  margin: 0;
+  height: 100%;
+}
+select,
+input,
+textarea {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 13px;
+}
+a {
+  color: #68bbff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+P {
+  MARGIN-TOP: 0px;
+  FONT-SIZE: 13px;
+  MARGIN-BOTTOM: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+ol,
+ul {
+  FONT-SIZE: 13px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.privacyStatement {
+  BORDER-RIGHT: #68bbff 1px solid;
+  PADDING-RIGHT: 5px;
+  BORDER-TOP: #68bbff 1px solid;
+  PADDING-LEFT: 5px;
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 5px;
+  BORDER-LEFT: #68bbff 1px solid;
+  WIDTH: 100%;
+  PADDING-TOP: 5px;
+  BORDER-BOTTOM: #68bbff 1px solid;
+  HEIGHT: 250px;
+  overflow: auto;
+}
+.buttonArea {
+  TEXT-ALIGN: center;
+}
+.info {
+  BORDER-RIGHT: #f5d945 1px solid;
+  PADDING-RIGHT: 10px;
+  BACKGROUND-POSITION: left top;
+  BORDER-TOP: #f5d945 1px solid;
+  PADDING-LEFT: 10px;
+  BACKGROUND-IMAGE: url(../../../images/watermark_info.gif);
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #f5d945 8px solid;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #f5d945 1px solid;
+  BACKGROUND-REPEAT: no-repeat;
+  BACKGROUND-COLOR: #fff9db;
+}
+.error {
+  BORDER-RIGHT: #ff9999 1px solid;
+  PADDING-RIGHT: 10px;
+  BACKGROUND-POSITION: left top;
+  BORDER-TOP: #ff9999 1px solid;
+  PADDING-LEFT: 10px;
+  FONT-SIZE: 12px;
+  BACKGROUND-IMAGE: url(../../../images/watermark_alert.gif);
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #ff9999 8px solid;
+  max-width: 690px;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #ff9999 1px solid;
+  BACKGROUND-REPEAT: no-repeat;
+  font-family: 'Nunito Sans', sans-serif;
+  BACKGROUND-COLOR: #ffe6db;
+}
+.formError {
+  BORDER-RIGHT: #ff9999 1px solid;
+  PADDING-RIGHT: 10px;
+  BACKGROUND-POSITION: left top;
+  BORDER-TOP: #ff9999 1px solid;
+  PADDING-LEFT: 10px;
+  FONT-SIZE: 12px;
+  BACKGROUND-IMAGE: url(../../../images/watermark_alert.gif);
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #ff9999 8px solid;
+  WIDTH: 690px;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #ff9999 1px solid;
+  BACKGROUND-REPEAT: no-repeat;
+  font-family: 'Nunito Sans', sans-serif;
+  BACKGROUND-COLOR: #ffe6db;
+}
+.fieldError {
+  COLOR: #fc3000;
+}
+.personalDetailsField {
+  WIDTH: 150px;
+}
+.personalDetailsFieldSmall {
+  WIDTH: 75px;
+}
+.personalDetailsFieldLarge {
+  WIDTH: 315px;
+}
+.personalDetailslabel {
+  MARGIN-BOTTOM: 2px;
+}
+.mandatoryMessage {
+  COLOR: #7a7a7a;
+  FONT-STYLE: italic;
+}
+.textField {
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 12px;
+  WIDTH: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.ie6 .textField,
+.ie7 .textField {
+  width: 95%;
+}
+.textArea {
+  FONT-WEIGHT: normal;
+  font-size:  14px;
+  WIDTH: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+  HEIGHT: 100px;
+}
+.initApplicationField {
+  WIDTH: 250px;
+}
+.homeBand {
+  BORDER-RIGHT: #68bbff 1px solid;
+  PADDING-RIGHT: 5px;
+  BORDER-TOP: #68bbff 1px solid;
+  PADDING-LEFT: 5px;
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 12px;
+  MARGIN-BOTTOM: 10px;
+  PADDING-BOTTOM: 5px;
+  BORDER-LEFT: #68bbff 1px solid;
+  WIDTH: 690px;
+  PADDING-TOP: 5px;
+  BORDER-BOTTOM: #68bbff 1px solid;
+  font-family: 'Nunito Sans', sans-serif;
+  BACKGROUND-COLOR: #f3f3f3;
+}
+.homeTable {
+  MARGIN-BOTTOM: 10px;
+}
+.withdrawField {
+  MARGIN-BOTTOM: 10px;
+  WIDTH: 450px;
+  HEIGHT: 100px;
+}
+.removeField {
+  MARGIN-BOTTOM: 10px;
+  WIDTH: 450px;
+  HEIGHT: 100px;
+}
+.searchTable {
+  BORDER-RIGHT: #999999 0px solid;
+  BORDER-TOP: #999999 1px solid;
+  MARGIN-BOTTOM: 10px;
+  BORDER-LEFT: #999999 1px solid;
+  BORDER-BOTTOM: #999999 1px solid;
+}
+.searchTable TD {
+  FONT-SIZE: 11px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.searchTableColumn {
+  BORDER-RIGHT: #999999 1px solid;
+  BORDER-TOP: #999999 0px solid;
+  BORDER-LEFT: #999999 0px solid;
+  BORDER-BOTTOM: #999999 0px solid;
+}
+.searchTableHeader {
+  BACKGROUND-COLOR: #005a99;
+}
+.suburbPreferenceTable, .availabilityTable, .refereeTable {
+  background: #fafafa;
+}
+.suburbPreferenceTable td, .availabilityTable td, .refereeTable td, .suburbPreferenceTable th, .availabilityTable th, .refereeTable th {
+  padding: 5px 10px;
+  font-weight: normal;
+}
+.suburbPreferenceError {
+  BORDER-RIGHT: #ff986e 1px solid;
+  PADDING-RIGHT: 10px;
+  BORDER-TOP: #ff986e 1px solid;
+  PADDING-LEFT: 10px;
+  FONT-SIZE: 12px;
+  PADDING-BOTTOM: 10px;
+  BORDER-LEFT: #ff986e 1px solid;
+  COLOR: #fc3000;
+  PADDING-TOP: 10px;
+  BORDER-BOTTOM: #ff986e 1px solid;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.subHeading {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 14px;
+  MARGIN-BOTTOM: 10px;
+  color: #444444;
+}
+.subTitle {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 14px;
+  MARGIN-BOTTOM: 10px;
+}
+.asterisk {
+  FONT-WEIGHT: bold;
+}
+.Title {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 16px;
+  MARGIN-BOTTOM: 10px;
+}
+.initApplicationLoginTable {
+  BORDER-RIGHT: #cccccc 1px solid;
+  BORDER-TOP: #cccccc 1px solid;
+  MARGIN-BOTTOM: 10px;
+  BORDER-LEFT: #cccccc 1px solid;
+  BORDER-BOTTOM: #cccccc 1px solid;
+  BACKGROUND-COLOR: #f3f3f3;
+}
+.initApplicationLoginInformationText {
+  PADDING-LEFT: 14px;
+  PADDING-TOP: 5px;
+  FONT-SIZE: 13px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+#header {
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  zoom: 1;
+  /* IE - hasLayout */
+  background-color: white;
+  background-image: url("");
+}
+#header h1 {
+  float: left;
+  margin: 5px 0 0 5px;
+}
+#header h2 {
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 0.5em 0.5em 0;
+}
+#wrapper {
+  min-height: 100%;
+}
+/* Hack for IE */
+
+* html #wrapper {
+  height: 100%;
+}
+#footer {
+  font-size: 11px;
+  padding: 0 0.5em;
+  border-top: 1px solid #ececec;
+  height: 25px;
+  line-height: 25px;
+  margin-top: -26px;
+  color: white;
+  background-color: #68bbff;
+  background-image: url("");
+}
+#footer a {
+  color: white;
+}
+#copyright {
+  font-size: 11px;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+/*#pageupLink {
+  font: normal 11px/25px Arial, Helvetica, Sans-serif;
+  float: right;
+  margin: 0;
+  padding: 0;
+}*/
+/* End standard client styles */
+
+/* Begin custom styles */
+
+#mapTable #map_canvas {
+  width: 100% !important;
+}
+
+/* End custom styles */
+
+
+
+
+
+
+
+
+/* Start new custom styles */
+
+/* Header / Footer */
+
+.inner, #mainInner {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1140px;
+}
+#header {
+  border: none;
+}
+.navbar-brand {
+  float: none;
+  height: auto;
+  padding: 25px 0;
+  color: #333; /*#2a4cc9;*/
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  /*border-bottom: 1px solid #eee;*/
+}
+
+#main {
+  padding-bottom: 100px;
+  /*overflow: hidden;*/
+}
+#footer {
+  margin-top: -90px;
+  color: #aaa;
+  background: transparent;
+  text-align: center;
+  border: none;
+  height:  auto;
+}
+#footer .inner {
+  /*border-top: 1px solid #eee;*/
+  padding: 20px 0;
+}
+#footer a {
+  color: inherit;
+}
+#copyright {
+  font-size: 12px;
+}
+#pageupLink {
+  float:  none;
+  font-size: 11px;
+}
+main {
+  /*overflow: hidden;*/
+}
+
+/* Fonts */
+
+body {
+  color: #666;
+}
+body, p, ol, ul {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+span, div {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+}
+td { font-size:  14px; }
+.heading, h2 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 40px !important;
+  letter-spacing: normal;
+  color: #333;
+}
+
+.subHeading {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: inherit;
+}
+h3 {
+  color:  #333 !important;
+}
+th {
+  font-size: 14px;
+}
+a {
+  color: #004982;
+}
+
+/* Navigation */
+
+.crumbs {
+  font-size: inherit;
+  padding-bottom:  30px;
+}
+.crumbs span {
+  color:  #aaa;
+  font-size:  12px;
+}
+.crumbs input {
+  font-weight: bold;
+  font-family: inherit !important;
+  color: #004982;
+  text-decoration: none;
+}
+.crumbs input:focus {
+  outline:  none;
+}
+
+/* Forms */
+label, ol, ul, select, input, textarea {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+}
+input, textarea {
+  /*border-color: #eaeaea !important;*/
+  border-radius: 4px;
+}
+input:focus, textarea:focus, .form-control:focus {
+  box-shadow: none;
+  outline: 1px solid rgba(82, 168, 236, 0.8);
+}
+input, textarea, select, .uneditable-input {
+  padding: 6px 10px;
+}
+.form-horizontal .control-group {
+  margin-bottom:  20px;
+}
+
+.cb_option.selected {
+  background-color: transparent;
+  color: #004982;
+  font-weight: bold;
+}
+.pu-select .input-group-btn .btn {
+  background: #f5f5f5 !important;
+  border: 1px solid #ccc !important;
+  z-index: 1;
+  padding:  0 14px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.pu-select .input-group-btn .btn .caret {
+  margin-top: 0;
+}
+
+/* Components */
+
+.personalDetailsSection {
+  margin: 20px 0;
+  border-bottom-color: #eee;
+}
+.availabilityTable {
+  
+}
+
+.panel {
+  border: 1px solid #eaeaea !important;
+  box-shadow: none !important;
+  max-width: 600px;
+  width: 100% !important;
+  border-radius:  8px !important;
+}
+.panelHeader {
+  background: #fafafa !important;
+  border-bottom: 1px solid #eaeaea !important;
+  padding: 15px 20px !important;
+  margin-bottom: 10px;
+}
+
+.alert {
+  text-shadow: none;
+  padding: 15px 20px !important;
+  border-radius:  8px !important;
+}
+.alert a {
+  font-weight:  bold;
+  color:  inherit;
+  text-decoration: underline;
+}
+.alert-info {
+  color: #0c4c6b;
+  background: #F1F4F6;
+  border-color: transparent;
+}
+.messageBox {
+  box-shadow:  none;
+  background: none;
+  padding:  0;
+}
+.messageBox p {
+  font-size: 16px;
+}
+.profileCompleteHeader p {
+  font-size: 12px;
+}
+
+.buttonArea {
+  margin: 0 !important;
+  padding: 20px 0 !important;
+  font-size: 0;
+}
+.buttonArea .btn {
+  margin: 0px 10px;
+}
+
+/* secondary */
+a.btn, a.btn:hover, a.btn:visited, a.btn:link {
+  font-weight: 600 !important;
+  text-shadow:  none !important;
+}
+.btn {
+  border:  none !important;
+  border-radius: 4px !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size:  14px !important;
+  padding: 10px 30px;
+  text-shadow: none;
+  box-shadow: none;
+  font-weight: 600 !important;
+  text-shadow:  none !important;
+}
+/* secondary */
+.btn {
+  background: #EAEFF2 !important;
+  color: #2D4156 !important;
+}
+/* primary */
+.btn-large, .btn-next, a.btn-primary, .btn-continue, #button_saveContinue, a.btn-backToHome {
+  background: #2D4156 !important;
+  color:  #fff !important;
+}
+.btn[disabled] {
+  background: #eee !important;
+  color: #bbb !important;
+}
+.homeTable .btn {
+  padding: 10px 20px;
+}
+.SitePreferenceTable input {
+  border:  none !important;
+  border-radius: 4px !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size:  14px !important;
+  padding: 10px 15px;
+  font-weight: 600 !important;
+  background: #EAEFF2 !important;
+  color: #2D4156 !important;
+  outline:  none !important;
+  box-shadow: none !important;
+}
+
+
+.btn-danger, a.btn-danger {
+  background: #f2dede !important;
+  color: #b94a48 !important;
+}
+
+.navbar-inner {
+  background: #fafafa !important;
+  border:  1px solid #eaeaea !important
+}
+.navbar .brand {
+  color: #333;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  padding: 0;
+  line-height: 44px;
+}
+.navbar .nav > li.divider-vertical { display: none }
+.navbar .icon-home { display: none }
+.navbar .nav > li > a {
+  text-shadow: none;
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: 700;
+  font-size: 14px;
+  color: #333;
+  padding: 12px 14px 10px;
+  border-bottom: 3px solid transparent;
+}
+@media (max-width: 979px) {
+  .navbar .nav > li > a {
+    border-bottom: none;
+  }
+}
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+  border-bottom-color: #004982;
+  color: #004982;
+  background: none;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  border-bottom-color: transparent;
+}
+.navbar-inner {
+  box-shadow: none;
+}
+.navbar .nav .dropdown-toggle .caret, .navbar .nav .open.dropdown .caret {
+  border-top-color: #333;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+.homeTable .job-title { padding-left: 0 }
+.action-buttons { font-size: 0 }
+table {
+  width: 100%;
+  border-color: #dddddd !important;
+}
+.SitePreferenceTable th, .profileDataTableHeading {
+  background: #fafafa !important;
+  border-bottom-color: #dddddd;
+  padding: 10px !important;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+.profileDataTable td {
+  padding:  5px 10px;
+}
+.locationsPane {
+  padding: 10px !important;
+}
+#r_ProfileSitePreferenceItem_1 td.locationOptions {
+  border-right-color: #dddddd;
+}
