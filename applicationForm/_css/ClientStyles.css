@@ -367,13 +367,14 @@ ul {
   max-width: 1140px;
 }
 #header {
-  border: none;
+  background: #fafafa !important;
+  border-bottom: 1px solid #eaeaea !important;
 }
 .navbar-brand {
   float: none;
   height: auto;
   padding: 25px 0;
-  color: #333; /*#2a4cc9;*/
+  color: #2D4156;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-size: 20px;
@@ -385,7 +386,7 @@ ul {
   /*overflow: hidden;*/
 }
 #footer {
-  margin-top: -90px;
+  margin-top: -93px;
   color: #aaa;
   background: transparent;
   text-align: center;
@@ -590,7 +591,7 @@ a.btn, a.btn:hover, a.btn:visited, a.btn:link {
   color: #2D4156 !important;
 }
 /* primary */
-.btn-large, .btn-next, a.btn-primary, .btn-continue, #button_saveContinue, a.btn-backToHome {
+.btn-large, .btn-next, a.btn-primary, .btn-continue, #button_saveContinue, a.btn-backToHome, button#upload {
   background: #2D4156 !important;
   color:  #fff !important;
 }
@@ -615,7 +616,7 @@ a.btn, a.btn:hover, a.btn:visited, a.btn:link {
 }
 
 
-.btn-danger, a.btn-danger {
+.btn-danger, a.btn-danger, a.btn-delete {
   background: #f2dede !important;
   color: #b94a48 !important;
 }
@@ -698,11 +699,15 @@ table {
 }
 .profileMenuSelected {
   color: #333;
-
 }
 .profileMenuTop {
   background-color: #fafafa;
   padding:  7px 10px;
   border:  none;
   border-bottom: 1px solid #ddd;
+}
+
+.compact-file-picker ul.providers {
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
